@@ -35,7 +35,7 @@ keywords: []
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
 # It also used by the `jekyll-seo-tag` plugin.
-logo: /assets/img/logo.png
+logo: /assets/img/cute.jpg
 
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
@@ -67,7 +67,6 @@ menu:
       - title: CtoC++
         url: /c-c++/
 
-
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
 # legal:
@@ -91,8 +90,9 @@ paginate_path: /:num/
 # Theme
 # ---------------------------------------------------------------------------------------
 
-theme: jekyll-theme-hydejack
- #  remote_theme: hydecorp/hydejack@v9
+theme:
+  jekyll-theme-hydejack
+  #  remote_theme: hydecorp/hydejack@v9
 
 # Customizaton
 # ----------------------------------------------------------------------------------------
@@ -125,13 +125,13 @@ defaults:
   # You can use this to provide a default accent color and background for
   # all pages under a given path:
   #- scope:
-   #   path: hyde/
+  #   path: hyde/
   #  values:
   #    accent_color: rgb(38,139,210)
-   #   theme_color: rgb(32,32,32)
-   #   accent_image:
-     #   background: rgb(32,32,32)
-    #    overlay: false
+  #   theme_color: rgb(32,32,32)
+  #   accent_image:
+  #   background: rgb(32,32,32)
+  #    overlay: false
 
   # Don't include documents in assets in the sitemap
   - scope:
@@ -192,7 +192,6 @@ kramdown:
 # Hydejack Settings
 # ----------------------------------------------------------------------------------------
 # These settings are specific to Hydejack.
-
 
 hydejack:
   # Configure the order of complementary content on blog posts
@@ -425,5 +424,3 @@ jekyll_compose:
       links:
         - title: Project Link
           url: https://example.com
-
-
