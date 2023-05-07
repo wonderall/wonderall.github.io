@@ -7,9 +7,10 @@ sidebar: true
 order: 1
 ---
 
-# 이력서 작성중.....
+# About
 
 <img src="http://placeimg.com/640/480/people">
+
 ## Work Experience.
 
 <ul>
