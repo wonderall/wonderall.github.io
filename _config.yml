@@ -3,13 +3,13 @@
 
 # Uncomment and set the URL of your site (with protocol, e.g. `https://`)
 # NOTE: You don't need to provide this property when hosting on GitHub Pages or Netlify.
-url: https://github.com/wonderall
+#url: https://github.com/wonderall
 
 # Uncomment and set the "base URL" of your site.
 # When your site is in a subdirectory, set to `/<name of directory>`,
 # with a leading `/` but no trailing `/`. Use the empty string '' otherwise.
 # NOTE: You don't need to provide this property when hosting on GitHub Pages or Netlify.
-baseurl:               /wonderall.github.io
+#baseurl:   /wonderall.github.io
 
 # General settings
 # ---------------------------------------------------------------------------------------
@@ -124,14 +124,14 @@ font_code: Fira Code, Menlo, Monaco, Consolas, monospace;
 defaults:
   # You can use this to provide a default accent color and background for
   # all pages under a given path:
-  - scope:
-      path: hyde/
-    values:
-      accent_color: rgb(38,139,210)
-      theme_color: rgb(32,32,32)
-      accent_image:
-        background: rgb(32,32,32)
-        overlay: false
+  #- scope:
+   #   path: hyde/
+  #  values:
+  #    accent_color: rgb(38,139,210)
+   #   theme_color: rgb(32,32,32)
+   #   accent_image:
+     #   background: rgb(32,32,32)
+    #    overlay: false
 
   # Don't include documents in assets in the sitemap
   - scope:
