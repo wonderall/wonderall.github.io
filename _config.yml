@@ -3,13 +3,13 @@
 
 # Uncomment and set the URL of your site (with protocol, e.g. `https://`)
 # NOTE: You don't need to provide this property when hosting on GitHub Pages or Netlify.
-#url: https://github.com/wonderall
+# url:                   https://username.github.io
 
 # Uncomment and set the "base URL" of your site.
 # When your site is in a subdirectory, set to `/<name of directory>`,
 # with a leading `/` but no trailing `/`. Use the empty string '' otherwise.
 # NOTE: You don't need to provide this property when hosting on GitHub Pages or Netlify.
-#baseurl: /wonderall.github.io
+# baseurl:               '/hydejack-starter-kit'
 
 # General settings
 # ---------------------------------------------------------------------------------------
@@ -24,7 +24,8 @@ title: 반복
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description: >
-  기록하고 기억하자
+  Hydejack is a boutique Jekyll theme for hackers, nerds, and academics,
+  with a focus on personal sites that are meant to impress.
 
 # A shorter description for the sidebar.
 tagline: 기록, 기억
@@ -35,7 +36,7 @@ keywords: []
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
 # It also used by the `jekyll-seo-tag` plugin.
-logo: /assets/img/cute.jpg
+logo: /assets/img/logo.png
 
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
@@ -67,6 +68,7 @@ menu:
       - title: CtoC++
         url: /c-c++/
 
+
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
 # legal:
@@ -90,9 +92,8 @@ paginate_path: /:num/
 # Theme
 # ---------------------------------------------------------------------------------------
 
-theme:
-  # jekyll-theme-hydejack
-  remote_theme: hydecorp/hydejack@v9
+# theme: jekyll-theme-hydejack
+remote_theme: hydecorp/hydejack@v9
 
 # Customizaton
 # ----------------------------------------------------------------------------------------
@@ -122,16 +123,16 @@ font_heading: Roboto Slab, Helvetica, Arial, sans-serif
 font_code: Fira Code, Menlo, Monaco, Consolas, monospace;
 
 defaults:
-   You can use this to provide a default accent color and background for
-   all pages under a given path:
+  # You can use this to provide a default accent color and background for
+  # all pages under a given path:
   - scope:
-     path: hyde/
+      path: hyde/
     values:
       accent_color: rgb(38,139,210)
-     theme_color: rgb(32,32,32)
-     accent_image:
-     background: rgb(32,32,32)
-      overlay: false
+      theme_color: rgb(32,32,32)
+      accent_image:
+        background: rgb(32,32,32)
+        overlay: false
 
   # Don't include documents in assets in the sitemap
   - scope:
@@ -192,6 +193,7 @@ kramdown:
 # Hydejack Settings
 # ----------------------------------------------------------------------------------------
 # These settings are specific to Hydejack.
+
 
 hydejack:
   # Configure the order of complementary content on blog posts
@@ -424,3 +426,4 @@ jekyll_compose:
       links:
         - title: Project Link
           url: https://example.com
+
