@@ -10,4 +10,4 @@
 
 당장 다음 자격증 공부나 열심히하자 일단 당장 눈앞에 문제부터 해결하자..당분간만 집중해보자..
 
-![참고이미지](assets/img/study/anxiety.jpg)
+![참고이미지](/assets/img/study/anxiety.jpg)
