@@ -1,3 +1,9 @@
+---
+layout: post
+title: 조급하다!!
+subtitle: ----------
+category: diary
+---
 # 조급함에 대해...
 
 * "조급함"때문에 현재 할 수 있는 일을 놓쳐서는 안 된다."
