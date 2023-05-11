@@ -24,7 +24,7 @@ title: 반복
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description: >
- 기록하고 기억하자
+  기록하고 기억하자
 
 # A shorter description for the sidebar.
 tagline: 기록, 기억
@@ -67,7 +67,6 @@ menu:
       - title: CtoC++
         url: /c-c++/
 
-
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
 # legal:
@@ -91,8 +90,8 @@ paginate_path: /:num/
 # Theme
 # ---------------------------------------------------------------------------------------
 
-# theme: jekyll-theme-hydejack
-remote_theme: hydecorp/hydejack@v9
+theme: jekyll-theme-hydejack
+# remote_theme: hydecorp/hydejack@v9
 
 # Customizaton
 # ----------------------------------------------------------------------------------------
@@ -192,7 +191,6 @@ kramdown:
 # Hydejack Settings
 # ----------------------------------------------------------------------------------------
 # These settings are specific to Hydejack.
-
 
 hydejack:
   # Configure the order of complementary content on blog posts
@@ -425,4 +423,3 @@ jekyll_compose:
       links:
         - title: Project Link
           url: https://example.com
-
